@@ -1,4 +1,4 @@
-[
+const movies= [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -16,7 +16,9 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    hours:12,
+    room:15
   }, {
     id: 2,
     title: "The Godfather",
@@ -34,7 +36,9 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    hours:12,
+    room:15
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -52,7 +56,9 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    hours:12,
+    room:15
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -70,25 +76,9 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
-  }, {
-  {
-    id: 5,
-    title: "Schindler's List",
-    poster: "https://i.imgur.com/IWZJOmu.jpg",
-    synopsis: "The relocation of Polish Jews from surrounding areas to Krakow begins in late 1939, shortly after the outbreak of World War II, when the German Army defeats...",
-    genres: [
-      "Biography", "Drama", "History"
     ],
-    year: 1993,
-    director: "Steven Spielberg",
-    actors: [
-      "Liam Neeson",
-      "Ben Kingsley",
-      "Ralph Fiennes",
-      "Caroline Goodall",
-      "Jonathan Sagall",
-      "Embeth Davidtz"
-    ]
+    hours:12,
+    room:15
   }
 ]
+export default movies;
